@@ -15,7 +15,7 @@ function Login() {
 
   const login = async () => {
     try {
-      dispatch(ShowLoading())
+      dispatch(ShowLoading());
       const response = await LoginUser(user);
       if (response.success) {
         localStorage.setItem("token", response.data);
@@ -24,9 +24,9 @@ function Login() {
       } else {
         toast.error(response.message);
       }
-      dispatch(HideLoading())
+      dispatch(HideLoading());
     } catch (error) {
-      dispatch(HideLoading())
+      dispatch(HideLoading());
       toast.error(error.message);
     }
   };
@@ -36,7 +36,7 @@ function Login() {
       <div className="bg-white p-5 w-[450px]">
         <div className="flex flex-col gap-5">
           <h1 className="text-2xl font-bold text-center text-primary uppercase">
-            SHEYBLOGS - Login
+            Daily Blogs - Login
           </h1>
 
           <input

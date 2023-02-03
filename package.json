@@ -1,14 +1,14 @@
 {
-  "name": "sheyblogs",
+  "name": "daily_blogs-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Daily Blogs - a site that lets user to create , edit , delete blogs. Another user can like , share and comment on your blog.",
   "main": "index.js",
   "scripts": {
     "build": "cd server && npm install  && cd ../client && npm install && npm run build",
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "SHANGEETH SS",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -18,5 +18,14 @@
     "mongoose": "^6.8.0",
     "nodemon": "^2.0.20",
     "socket.io": "^4.5.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shangeeth7/Daily-Blogs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shangeeth7/Daily-Blogs/issues"
+  },
+  "homepage": "https://github.com/Shangeeth7/Daily-Blogs#readme"
 }

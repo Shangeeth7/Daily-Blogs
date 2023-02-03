@@ -84,7 +84,7 @@ function ProtectedRoute({ children }) {
             className="text-white text-2xl font-bold uppercase cursor-pointer"
             onClick={() => navigate("/")}
           >
-            SHEYBLOGS
+            Daily Blogs
           </h1>
 
           <div className="bg-white rounded p-2 flex gap-2 items-center font-semibold text-primary">
