@@ -12,7 +12,7 @@ import {
   SetUnreadCount,
 } from "../redux/usersSlice";
 import { io } from "socket.io-client";
-const socket = io("https://sheyblogs-udemy.onrender.com/");
+const socket = io("https://daily-blogz.onrender.com/");
 
 function ProtectedRoute({ children }) {
   const { currentUser, notifications, unreadCount } = useSelector(
