@@ -32,10 +32,10 @@ function Login() {
   };
 
   return (
-    <div className="flex justify-center h-screen items-center bg-primary">
-      <div className="bg-white p-5 w-[450px]">
+    <div className="flex justify-center h-screen items-center bg-secondary">
+      <div className="bg-transparent  p-5 w-[450px]">
         <div className="flex flex-col gap-5">
-          <h1 className="text-2xl font-bold text-center text-primary uppercase">
+          <h1 className="text-2xl font-bold text-center text-white uppercase">
             Daily Blogs - Login
           </h1>
 
@@ -57,10 +57,11 @@ function Login() {
             title="Login"
             onClick={login}
             disabled={user.email.length < 3 || user.password.length < 3}
+            className="btnnnn"
           />
 
           <Link to="/register" className="text-center text-primary underline">
-            Don't have an account? Register
+            Don't have an account? <span className="text-white">Register</span>
           </Link>
         </div>
       </div>

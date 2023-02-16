@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("../public/images/body2.jpg");
+  background-size: cover;
+}
 * {
   font-family: "Montserrat", sans-serif !important;
 }
@@ -21,13 +25,6 @@ textarea:focus {
   outline: none;
 }
 
-.primary-contained-btn {
-  background-color: #395144;
-  height: 40px;
-  padding: 0 20px;
-  color: white;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -40,4 +37,16 @@ textarea:focus {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(222, 221, 221);
+}
+
+.bg-secondary {
+  background-image: url("../public/images/log.jpg");
+  background-size: cover;
+}
+
+.primary-contained-btn {
+  background-color: #395144;
+  height: 40px;
+  padding: 0 20px;
+  color: white;
 }

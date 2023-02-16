@@ -33,10 +33,10 @@ function Register() {
   };
 
   return (
-    <div className="flex justify-center h-screen items-center bg-primary">
-      <div className="bg-white p-5 w-[450px]">
+    <div className="flex justify-center h-screen items-center bg-secondary">
+      <div className="bg-transparent p-5 w-[450px]">
         <div className="flex flex-col gap-5">
-          <h1 className="text-2xl font-bold text-center text-primary uppercase">
+          <h1 className="text-2xl font-bold text-center text-white uppercase">
             Daily Blogs - Register
           </h1>
 
@@ -72,7 +72,7 @@ function Register() {
           />
 
           <Link to="/login" className="text-center text-primary underline">
-            Already have an account? Login
+            Already have an account? <span className="text-white">Login</span>
           </Link>
         </div>
       </div>

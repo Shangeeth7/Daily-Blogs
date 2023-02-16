@@ -87,5 +87,4 @@ export const ShareBlog = async (payload) => {
   } catch (error) {
     return error.response.data;
   }
-}
-
+};
